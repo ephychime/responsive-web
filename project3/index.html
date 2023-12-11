@@ -1,0 +1,154 @@
+
+
+<DOCTYPE! html>
+  <html lang="en"></html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <main id="main-doc">
+        <nav id="navbar">
+            <h1>Documentation</h1>
+            <ul>
+                <li><a href="#Getting_Started" class="nav-link">Getting Started with React</a></li>
+                <li><a href="#JavaScript" class="nav-link">JavaScript</a></li>
+                <li><a href="#Functions" class="nav-link">Functions</a></li>
+                <li><a href="#Variables" class="nav-link">Variables</a></li>
+                <li><a href="#Arrow_Functions" class="nav-link">Arrow_Functions</a></li>
+                <li> <a href="#if...else_statement" class="nav-link"> If...else Statement </a> </li>
+            </ul>
+        </nav>
+
+        <section id="Getting_Started" class="main-section">
+            <header><h2>Getting Started with React</h2></header>
+            <p>Information on getting started with your documentation.</p>
+            <p>Here we learn React, starting from scratch and go on to advanced concepts like.</p>
+            <p>This is the React documentation. Welcome! A majority of React principles that you will utilize on a regular basis are introduced on this page.</p>
+            <p> To get started, you need npm and Node.js installed. </p>
+            <code>Open your terminal</code>
+            <code>npm install</code>
+            <p>Run this command to create a React application named my-react-app:</p>
+                 <code>npx create-react-app my-react-app</code>
+            
+    <p>Run the React Application</p>
+            <ul>
+                <li>Run this command to move to the directorty: <strong>my-react-app</strong> </li>
+                <li>Run this command to run the React application my-react-app: <strong>npm start</strong> </li>
+            <p>A new browser window will pop up with your newly created React App! If not, open your browser and type localhost:3000 in the address bar.</p>
+            </ul>
+
+        </section>
+        <section id="JavaScript" class="main-section">
+            <header><h2>JavaScript</h2></header>
+            <p>JavaScript is a cross-platform, object-oriented scripting language...</p>
+            <p>JavaScript was initially created to “make web pages alive”.The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.</p>
+            <p>In HTML, JavaScript code is inserted between <script> and </script> tags.</p>
+            <p>JavaScript can be placed in the <body>, or in the <head> section of an HTML page, or in both.</p>
+            <p>One of many JavaScript HTML methods is getElementById().
+
+                The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":</p><code>console.log("Hello, World!");</code>
+            <code>document.getElementById("demo").innerHTML = "Hello JavaScript";</code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <p>Some of the fundamentals in Javascript</p>
+            <ul>
+                <li>JavaScript Variables</li>
+                <li>JavaScript Operators</li>
+                <li>Data Types</li>
+                <li>Type Conversions</li>
+                <li>Conditional Branching</li>
+            </ul>
+        </section>
+
+        <section id="Functions" class="main-section">
+            <header><h2>Functions</h2></header>
+            <p>Explore advanced topics in this section.</p>
+            <p>To create a function we can use a function declaration.
+
+                It looks like this:</p>
+           
+            <code>function showMessage() {</code>
+            <code>alert( 'Hello everyone!' );</code>
+            <code>}</code>
+            <code></code>
+            <code></code>
+            <ul>
+                <li>Constants and Scope</li>
+                <li>Object-Oriented Programming</li>
+                <li>Asynchronous JavaScript</li>
+                <li>Arrays and Iterables</li>
+                <li>DOM Manipulation</li>
+            </ul>
+        </section>
+
+        <section id="Variables" class="main-section">
+            <header><h2>Variables</h2></header>
+            <p>Explore advanced topics in this section.</p>
+            <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications.</p>
+            <p>A function definition (also called a function declaration, or function statement) consists of the function keyword</p>
+            <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
+           
+            <code>let num = 42;</code>
+            <code>const greeting = "Hello";</code>
+            <code>function add(x, y) { return x + y; }</code>
+            <code>var name = "John";</code>
+            <code>if (num % 2 === 0) { console.log("Even"); }</code>
+            <ul>
+                <li>Variable Declaration and Assignment</li>
+                <li>Constants and Immutability</li>
+                <li>Functions and Scopes</li>
+                <li>Conditional Statements</li>
+                <li>Looping Constructs</li>
+            </ul>
+        </section>
+
+        <section id="Arrow_Function" class="main-section">
+            <header><h2>Arrow functions</h2></header>
+            <p>Explore advanced topics in this section.</p>
+            <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
+            
+            <code>function helloWorld() { console.log("Hello, World!"); }</code>
+            <code>let greeting = "Hello";</code>
+            <code>document.write(greeting);</code>
+            <code>alert("Hello, World!");</code>
+            <code>console.log("Hello from the console!");</code>
+            <ul>
+                <li>Introduction to Displaying Output</li>
+                <li>Working with Strings</li>
+                <li>User Interaction with Alerts</li>
+                <li>Console Logging Techniques</li>
+                <li>Building a Simple Web Page</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="if...else_statement">
+            <header> If...else statement </header>
+             <p> Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:
+               <code> if (condition) { statement_1; } else { statement_2; } </code>
+               condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
+               You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:
+       
+               <code> if (condition_1) { statement_1; } else if (condition_2) {
+               statement_2; } else if (condition_n) { statement_n; } else {
+               statement_last; } </code>
+               In the case of multiple conditions only the first logical condition which evaluates to true will be executed. To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:
+               
+               <code> if (condition) { statement_1_runs_if_condition_is_true;
+               statement_2_runs_if_condition_is_true; } else {
+               statement_3_runs_if_condition_is_false;
+               statement_4_runs_if_condition_is_false; } </code>
+               
+               It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when glancing over the code. For example, do not use the following code:
+               
+               <code> if (x = y) { /* statements here */ } </code>
+               If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:
+              
+               <code> if ((x = y)) { /* statements here */ } </code>
+               </p>
+           </section>
+    </main>
+</body>
+</html>

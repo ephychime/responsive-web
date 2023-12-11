@@ -1,0 +1,82 @@
+ #navbar{
+    height: 100%;
+    width: 18%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #faf7e6;
+    transition: 0.5s;
+    font-size: small; 
+  }
+  #navbar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color:#182347;
+    font-size: 16px;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #navbar a:hover{
+  color: #c9c110;
+  }
+  
+  #navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    #navbar {padding-top: 15px;
+    width: 0;
+    font-size: 8px;}
+    #navbar a {font-size: 8px;
+    width: 0;
+     }
+  }
+  body{
+    position: absolute;
+    left: 280px; 
+    margin-left: px;
+    background-color: #fffff4;
+  }
+  
+  header{
+    font-family: Helvetica;
+    color: #151130;
+    font-size: 30px;
+    font-weight: 200;
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  h2{
+    font-size: medium;
+    font-weight: 100;
+    font-weight: bold;
+  }
+  h1{
+    text-align: center;
+    margin-right: 30%;
+  }
+
+
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
