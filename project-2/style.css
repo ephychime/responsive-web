@@ -1,0 +1,57 @@
+#main {
+    background-color: rgb(71, 69, 69);
+    color: white;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-size: 10px;
+    padding: 5px;
+}
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1, p, h5 {
+    text-align: center;
+}
+
+#info {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#int {
+    max-width: 550px;
+    font-style: italic;
+    margin: 0 auto 40px auto;
+}
+
+#last-text {
+    line-height: 1.6;
+    margin: 0 0 0 100px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #info,
+    #int,
+    #last-text {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #last-text {
+        margin-left: 0;
+    }
+}
